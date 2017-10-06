@@ -1,3 +1,5 @@
+# JUST FORKED FOR BUG FIXING -> Update color-picker.directive.ts
+
 # angular4-color-picker
 Angular 4 Color Picker Directive/Component with no dependencies required.<br />
 This is a Color Picker Directive/Component for Angular 4.
@@ -6,6 +8,10 @@ This is a Color Picker Directive/Component for Angular 4.
 ```bash
 npm i --save angular4-color-picker
 ```
+```
+Update color-picker.directive.ts
+```
+
 
 # Usage
 * Use it in your HTML elements, for example:

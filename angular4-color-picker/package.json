@@ -1,0 +1,107 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "angular4-color-picker@^1.4.2",
+        "scope": null,
+        "escapedName": "angular4-color-picker",
+        "name": "angular4-color-picker",
+        "rawSpec": "^1.4.2",
+        "spec": ">=1.4.2 <2.0.0",
+        "type": "range"
+      },
+      "C:\\TSFOnline\\VS2015\\Alleantia\\Iot\\WebAppLeonardo\\WAL"
+    ]
+  ],
+  "_from": "angular4-color-picker@>=1.4.2 <2.0.0",
+  "_id": "angular4-color-picker@1.4.2",
+  "_inCache": true,
+  "_location": "/angular4-color-picker",
+  "_nodeVersion": "7.5.0",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/angular4-color-picker-1.4.2.tgz_1490860953834_0.9876078215893358"
+  },
+  "_npmUser": {
+    "name": "rvmoldova",
+    "email": "rv@labs.md"
+  },
+  "_npmVersion": "3.7.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "angular4-color-picker@^1.4.2",
+    "scope": null,
+    "escapedName": "angular4-color-picker",
+    "name": "angular4-color-picker",
+    "rawSpec": "^1.4.2",
+    "spec": ">=1.4.2 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/angular4-color-picker/-/angular4-color-picker-1.4.2.tgz",
+  "_shasum": "6ee06dabc12d589ead5660ccba6ad052c95ba22a",
+  "_shrinkwrap": null,
+  "_spec": "angular4-color-picker@^1.4.2",
+  "_where": "C:\\TSFOnline\\VS2015\\Alleantia\\Iot\\WebAppLeonardo\\WAL",
+  "bugs": {
+    "url": "https://github.com/rvmoldova/angular4-color-picker/issues"
+  },
+  "dependencies": {
+    "@angular/common": "^4.0.1",
+    "@angular/core": "^4.0.1",
+    "@angular/platform-browser": "^4.0.1",
+    "rxjs": "^5.2.0",
+    "zone.js": "^0.8.5"
+  },
+  "description": "Angular 4 Color Picker Directive, no dependences required.",
+  "devDependencies": {
+    "@types/core-js": "^0.9.40",
+    "@types/jasmine": "^2.5.47",
+    "@types/node": "^7.0.12",
+    "concurrently": "^3.0.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-inline-ng2-template": "^4.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.4.0",
+    "gulp-typescript": "^3.1.4",
+    "gulp-uglify": "^2.0.1",
+    "lite-server": "^2.2.2",
+    "run-sequence": "^1.2.2",
+    "typescript": "^2.2.2"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "6ee06dabc12d589ead5660ccba6ad052c95ba22a",
+    "tarball": "https://registry.npmjs.org/angular4-color-picker/-/angular4-color-picker-1.4.2.tgz"
+  },
+  "files": [
+    "lib/*",
+    "index.d.ts",
+    "index.ts"
+  ],
+  "gitHead": "1a8ef617a4913a424874301207dfcdd0730d6841",
+  "homepage": "https://github.com/rvmoldova/angular4-color-picker#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "rvmoldova",
+      "email": "rv@labs.md"
+    }
+  ],
+  "name": "angular4-color-picker",
+  "optionalDependencies": {},
+  "prepublish": "gulp",
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rvmoldova/angular4-color-picker.git"
+  },
+  "scripts": {
+    "build": "gulp"
+  },
+  "version": "1.4.2"
+}

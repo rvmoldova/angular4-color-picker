@@ -13,7 +13,13 @@ import { BrowserModule } from '@angular/platform-browser';
 })
 export class ColorPickerDirective implements OnInit, OnChanges {
     @Input('colorPicker') colorPicker: string;
+ 
+    /**This event occurs when the directive is started and the color is changed */
     @Output('colorPickerChange') colorPickerChange = new EventEmitter<string>(true);
+   
+    /**This event only occurs when the color changes */
+    @Output('colorValueChange') colorValueChange = new EventEmitter<string>(true);
+
     @Input('cpToggle') cpToggle: boolean;
     @Output('cpToggleChange') cpToggleChange = new EventEmitter<boolean>(true);
     @Input('cpPosition') cpPosition: string = 'right';
@@ -98,7 +104,10 @@ export class ColorPickerDirective implements OnInit, OnChanges {
 
     colorChanged(value: string, ignore: boolean = true) {
         this.ignoreChanges = ignore;
-        this.colorPickerChange.emit(value)
+        this.colorPickerChange.emit(value);
+        if (this.colorValueChange && this.colorValueChange.emit){
+            this.colorValueChange.emit(value);
+        }
     }
 
     changeInput(value: string) {

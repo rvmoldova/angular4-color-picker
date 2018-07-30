@@ -1,7 +1,7 @@
-import {Component, OnChanges, Directive, Input, Output, ViewContainerRef, ElementRef, EventEmitter, OnInit, ViewChild} from '@angular/core';
-import {ColorPickerService} from './color-picker.service';
-import {Rgba, Hsla, Hsva, SliderPosition, SliderDimension} from './classes';
-import {NgModule, Compiler, ReflectiveInjector} from '@angular/core';
+import { Component, OnChanges, Directive, Input, Output, ViewContainerRef, ElementRef, EventEmitter, OnInit, ViewChild } from '@angular/core';
+import { ColorPickerService } from './color-picker.service';
+import { Rgba, Hsla, Hsva, SliderPosition, SliderDimension } from './classes';
+import { NgModule, Compiler, ReflectiveInjector } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 @Directive({
@@ -205,20 +205,20 @@ export class SliderDirective {
 
 export class DialogComponent implements OnInit {
     private hsva: Hsva;
-    private rgbaText: Rgba;
-    private hslaText: Hsla;
-    private hexText: string;
+    public rgbaText: Rgba;
+    public hslaText: Hsla;
+    public hexText: string;
     private outputColor: string;
-    private selectedColor: string;
-    private alphaSliderColor: string;
-    private hueSliderColor: string;
-    private slider: SliderPosition;
+    public selectedColor: string;
+    public alphaSliderColor: string;
+    public hueSliderColor: string;
+    public slider: SliderPosition;
     private sliderDimMax: SliderDimension;
-    private format: number;
-    private show: boolean;
-    private top: number;
-    private left: number;
-    private position: string;
+    public format: number;
+    public show: boolean;
+    public top: number;
+    public left: number;
+    public position: string;
     private directiveInstance: any;
     private initialColor: string;
     private directiveElementRef: ElementRef;
@@ -230,19 +230,19 @@ export class DialogComponent implements OnInit {
     private cpPositionOffset: number;
     private cpOutputFormat: string;
     private cpPresetLabel: string;
-    private cpPresetColors: Array<string>;
-    private cpCancelButton: boolean;
+    public cpPresetColors: Array<string>;
+    public cpCancelButton: boolean;
     private cpCancelButtonClass: string;
     private cpCancelButtonText: string;
-    private cpOKButton: boolean;
+    public cpOKButton: boolean;
     private cpOKButtonClass: string;
     private cpOKButtonText: string;
-    private cpHeight: number;
-    private cpWidth: number;
+    public cpHeight: number;
+    public cpWidth: number;
     private cpIgnoredElements: any;
-    private cpDialogDisplay: string;
+    public cpDialogDisplay: string;
     private cpSaveClickOutside: boolean;
-    private cpAlphaChannel: string;
+    public cpAlphaChannel: string;
 
     private dialogArrowSize: number = 10;
     private dialogArrowOffset: number = 15;

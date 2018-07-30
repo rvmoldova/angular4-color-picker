@@ -14,6 +14,8 @@ node_modules/*
 typings/*
 npm-debug.log
 
+package-lock.json
+
 nbproject/*
 
 # lib/
